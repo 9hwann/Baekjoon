@@ -1,7 +1,8 @@
+import sys
 a = []
 
-for _ in range(int(input())):
-    x = int(input())
+for _ in range(int(sys.stdin.readline())):
+    x = int(sys.stdin.readline())
 
     if x == 0:
         a.pop()
